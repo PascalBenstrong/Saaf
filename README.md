@@ -1,7 +1,7 @@
 
 
 
-<img src="https://github.com/PascalBenstrong/Saaf/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png">
+<img src="https://github.com/PascalBenstrong/Saaf/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
 
 Just a social app. This app is mostly completed but some bugs would be there so till i fix them this app will be in **beta** .
 **google-services.json file has been deleted for security reasons. Place your google-services.json in /app folder**
