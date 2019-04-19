@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/videobutton">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageholder"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.bitec.saafs.ui.views.SaafImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@drawable/background_video_controls_rounded"/>
+
+            <ImageView
+                android:id="@+id/button_play"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/ic_play_arrow_button"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imageholder"
+            android:layout_alignTop="@+id/imageholder"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:alpha="0.5">
+
+            <TextView
+                android:id="@+id/videotitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="How i over came alcohol"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/authorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/videotitle"
+                android:text="Adams"
+                android:textColor="#ffffff"
+                />
+        </RelativeLayout>
+
+        <com.bitec.saafs.ui.views.SaafImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccentt"
+            android:layout_alignBottom="@+id/imageholder"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

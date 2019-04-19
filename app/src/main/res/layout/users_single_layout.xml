@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:layout_marginTop="3dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_comment">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_app_bar"
+        android:src="@drawable/default_user_art_g_6" />
+
+        <TextView
+            android:id="@+id/user_single_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignTop="@+id/user_single_image"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/user_single_image"
+            android:text="Display Name"
+            android:textColor="@color/colorAccentt"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@+id/user_single_name"
+            android:layout_below="@+id/user_single_name"
+            android:textStyle="bold"
+            android:text="Comment"
+            android:maxLines="4"
+            android:textColor="@color/colorAccentt"
+            android:ellipsize="end"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccentt"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/user_single_image"
+            android:layout_below="@id/comment"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_comment"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/reply_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_share_clicked"/>
+
+        <TextView
+            android:id="@+id/reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="50dp"
+            android:text="Reply"
+            android:textColor="@color/colorAccentt"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/heart_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_heart_red"
+            android:visibility="visible"/>
+        <ImageView
+            android:id="@+id/gray_heart_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_heart_gray"/>
+
+        <TextView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:text="43"
+            android:textColor="@color/colorAccentt"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

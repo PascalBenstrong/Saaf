@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_view"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_share"
+        android:layout_marginTop="@dimen/image_view_top_margin"
+        android:layout_marginEnd="@dimen/image_view_margin_horizontal"
+        android:layout_gravity="end|top"
+        app:srcCompat="@drawable/ic_share_button"/>
+
+<include layout="@layout/snippet_media_controller_landscape"/-->
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exo_playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>
