@@ -1,14 +1,6 @@
 
 
 
-<>(<br>
-
-[![Hify](https://github.com/PascalBenstrong/Saaf/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)](https://lvamsavarthan.github.io/lvstore/hify.html)
-[![Hify](https://forthebadge.com/images/badges/built-with-love.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
-[![Hify](https://forthebadge.com/images/badges/built-for-android.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
-
-<br>)
-
 <img src="https://github.com/PascalBenstrong/Saaf/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png">
 
 Just a social app. This app is mostly completed but some bugs would be there so till i fix them this app will be in **beta** .
