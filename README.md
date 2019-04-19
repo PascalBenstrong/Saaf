@@ -63,7 +63,7 @@ Check out the cloud_functions folder for the code
 
 ## Developer
 
-This whole project is maintained only by **Pascal Nsunba and Benoit Ciawu**.
+This whole project is maintained only by **Pascal Nsunba and Benoit Ciawu (https://github.com/BenoitTheFirst)**.
 
 <!--## Credits
 
