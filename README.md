@@ -1,7 +1,8 @@
 <img src="https://github.com/lvamsavarthan/Hify/blob/master/screenshots/Design.png">
 <br>
 
-[![Hify](https://forthebadge.com/images/badges/built-by-developers.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
+[![Hify](https://github.com/PascalBenstrong/Saaf/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)]
+<!--
 [![Hify](https://forthebadge.com/images/badges/built-with-love.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
 [![Hify](https://forthebadge.com/images/badges/built-for-android.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
 
@@ -37,7 +38,7 @@ Just a social app. This app is mostly completed but some bugs would be there so 
 ## Cloud Functions Code
 Check out the cloud_functions folder for the code
 
-## Screenshots
+<!--## Screenshots
 <!--
 <table>
   <tr>
@@ -70,6 +71,6 @@ Check out the cloud_functions folder for the code
 
 This whole project is maintained only by **Pascal Nsunba and Benoit Ciawu**.
 
-## Credits
+<!--## Credits
 
-Logo designed by Live Mail Team from Uplabs.com
+<!--Logo designed by Live Mail Team from Uplabs.com
