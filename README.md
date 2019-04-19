@@ -5,8 +5,9 @@
 [![Hify](https://forthebadge.com/images/badges/built-with-love.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
 [![Hify](https://forthebadge.com/images/badges/built-for-android.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
 
-
+-->
 <br>
+
 
 Just a social app. This app is mostly completed but some bugs would be there so till i fix them this app will be in **beta** .
 **google-services.json file has been deleted for security reasons. Place your google-services.json in /app folder**
