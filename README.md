@@ -59,4 +59,4 @@ This whole project is maintained only by **[Pascal Nsunba](https://github.com/Pa
 
 <!--## Credits
 
-<!--Logo designed by Live Mail Team from Uplabs.com
+<!--Logo designed by "" from ""
