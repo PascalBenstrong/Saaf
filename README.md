@@ -32,6 +32,11 @@ Just a social app. This app is mostly completed but some bugs would be there so 
 ## Cloud Functions Code
 Check out the cloud_functions folder for the code
 
+## Developer
+
+This whole project is maintained only by **Pascal Nsunba and Benoit Ciawu (https://github.com/BenoitTheFirst)**.
+
+
 <!--## Screenshots
 <!--
 <table>
@@ -61,9 +66,6 @@ Check out the cloud_functions folder for the code
 </table>
 
 
-## Developer
-
-This whole project is maintained only by **Pascal Nsunba and Benoit Ciawu (https://github.com/BenoitTheFirst)**.
 
 <!--## Credits
 
